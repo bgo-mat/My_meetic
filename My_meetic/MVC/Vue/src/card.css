@@ -1,0 +1,116 @@
+.blocUser {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px #D92555;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocNoResult {
+    display: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px #D92555;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.msgNoResult {
+    margin: 3vw;
+    font-size: 2rem;
+}
+
+.blocInfo {
+    padding: 20px;
+}
+
+.blocImgUser {
+    text-align: center;
+}
+
+.imgUser {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.infoUser {
+    text-align: center;
+    color: #333;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.age {
+    font-size: 1em;
+    color: #666;
+}
+
+.blocButton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttonCard {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buttonCard:hover {
+    background-color: #e1e1e1;
+}
+
+.buttonCard.accept {
+    background-color: green;
+    color: white;
+}
+
+.buttonCard.reject {
+    background-color: red;
+    color: white;
+}
+
+
+@keyframes slideRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-right {
+    animation: slideRight 0.5s forwards;
+}
+
+.animate-left {
+    animation: slideLeft 0.5s forwards;
+}

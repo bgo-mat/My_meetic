@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("http://localhost:8000/Vue/src/assets/bg.jpg");
+    background-size: cover;
+}
+
+.bouton {
+    background-color: #D92555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    z-index: 7;
+}
+
+.bouton:hover {
+    background-color: #D92555;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bouton {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.blocFrom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.msgErreur {
+    color: white;
+    font-style: italic;
+}
+
+.container {
+    width: 30vw;
+    padding: 20px;
+    background-color: #BF7885;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bgVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+#birthdate {
+    width: 20%;
+}
+
+.input,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit {
+    background-color: #D92555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 0;
+    font-size: 18px;
+    cursor: pointer;
+    width: 5vw;
+}
+
+.submit:hover {
+    background-color: #D92555;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
