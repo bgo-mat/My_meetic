@@ -1,20 +1,34 @@
-<h1>My_meetic - Votre site de rencontres personnalisé</h1>
+<h1>My_meetic</h1>
 
-My_meetic est un projet web qui offre une plateforme de rencontres en ligne, similaire à Meetic, 
-mais destinée spécifiquement aux membres d'un même établissement éducatif qui partagent des intérêts communs. 
-Ce projet est entièrement développé en utilisant AJAX, jQuery, et PHP orienté objet, sans plugins externes.
+My_meetic est un projet web inspiré par la plateforme de rencontre Meetic. Cette application permet aux utilisateurs de s'inscrire, se connecter, modifier leur profil, supprimer leur compte, et rechercher d'autres utilisateurs en utilisant divers filtres. L'objectif est de fournir une plateforme simple et intuitive pour aider les gens à se rencontrer en ligne en fonction de leurs préférences personnelles.
+Fonctionnalités
 
-My_meetic permet aux utilisateurs de s'inscrire et de se connecter, 
-de créer un profil complet et de rechercher des partenaires potentiels à l'aide de filtres dynamiques comme le genre, 
-la localisation, les loisirs et la tranche d'âge. L'interaction avec la base de données est réalisée via des requêtes AJAX pour une expérience utilisateur fluide et réactive.
+    Inscription : Permet aux nouveaux utilisateurs de créer un compte.
+    Connexion : Permet aux utilisateurs de se connecter à leur compte.
+    Modification du compte : Les utilisateurs peuvent mettre à jour leurs informations personnelles.
+    Suppression du compte : Permet aux utilisateurs de supprimer définitivement leur compte.
+    Recherche d'utilisateur : Recherche avancée avec des filtres basés sur la localisation, les loisirs, et l'âge.
+
+Technologies utilisées
+
+    Backend : PHP (Orienté objet)
+    Base de données : MySQL
+    Frontend : React
 
 
-<h1>My_meetic - Your Custom Dating Site</h1>
+<h1>My_meetic</h1>
 
-My_meetic is a web project that offers an online dating platform similar to Meetic, 
-but specifically designed for members of the same educational institution who share common interests. This project is fully developed using AJAX, jQuery,
-and object-oriented PHP, without external plugins.
+My_meetic is a web project inspired by the dating platform Meetic. This application allows users to register, log in, update their profile, delete their account, and search for other users using various filters. The aim is to provide a simple and intuitive platform to help people meet online based on their personal preferences.
+Features
 
-My_meetic allows users to register and login, create comprehensive profiles, 
-and search for potential partners using dynamic filters such as gender, location, hobbies, and age range. 
-Database interactions are handled via AJAX requests for a smooth and responsive user experience.
+    Registration: Allows new users to create an account.
+    Login: Enables users to log in to their account.
+    Account Modification: Users can update their personal information.
+    Account Deletion: Allows users to permanently delete their account.
+    User Search: Advanced search with filters based on location, hobbies, and age.
+
+Technologies Used
+
+    Backend: PHP (Object-oriented)
+    Database: MySQL
+    Frontend: React
